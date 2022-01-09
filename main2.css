@@ -1,0 +1,14 @@
+ .container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto; 
+     grid-template-areas: 
+        "image image image image"
+        "image image image image"
+    
+ }
+
+ .images > div{
+    object-fit: contain;
+
+ }
